@@ -19,7 +19,7 @@
 // Support: Firefox 18+
 //"use strict";
 var
-  // The deferred used on DOM ready
+	// The deferred used on DOM ready
 	readyList,
 
 	// A central reference to the root jQuery(document)
