@@ -2563,7 +2563,7 @@ if ( !getSetAttribute ) {
 
 	// Use this for any attribute in IE6/7
 	// This fixes almost every IE6/7 issue
-	nodeHook = jQuery.valHooks.button = {
+	nodeHook = jQuery.valHooks.button = {
 		get: function( elem, name ) {
 			var ret = elem.getAttributeNode( name );
 			return ret && ( name === "id" || name === "name" || name === "coords" ? ret.value !== "" : ret.specified ) ?
