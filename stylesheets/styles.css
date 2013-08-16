@@ -191,7 +191,7 @@ footer {
 {
 display: inline;
 list-style-type: none;
-padding-right: 20px;
+padding-right: 10px;
 }
 
 @media print, screen and (max-width: 960px) {
